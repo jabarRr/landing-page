@@ -11,6 +11,7 @@ body{
     color: white;
     font-family: 'Roboto';
     font-size: 36px;
+    padding: 5px 40px;
     
     
 }
@@ -40,10 +41,25 @@ body{
     flex-basis: 600px;
 }
 
+.website-info button{
+    align-self: flex-start;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
 .placeholder-image{
     flex-basis: 600px;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 .list-of-info{
     display: flex;
     justify-content: center ;
@@ -65,22 +81,65 @@ body{
 }
 
 .quote-section{
+    display: flex;
+    flex-direction: column;
     background-color: lightgray;
     display: flex;
     justify-content: space-between;
     height: 250PX;
-
+    padding: 50px;
 }
 
 .banner{
     display: flex;
-    justify-content: center;
+    padding: 0px 200px;
     height: 200px;
     align-items: center;
+    gap: 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    justify-content:space-between;
+  
+}
+
+.quote{
+    font-size: 30px;
+    width: 600px;
+    align-self: center;
+   
+     
     
 }
 
+
+.newsletter{
+    padding: 100px 500px;
+}
+
+.banner button{
+    font-size: 40px;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    
+}
 .footer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    
+}
+
+
+.author-anchor{
+    text-align: right;
+    
 }
