@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 36px;
+    
+    
+}
+
+.header ul{
+    list-style-type: none;
+
+}
+
+.right-side-header{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.hero-section{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 10px;
+    justify-content: center;
+    height: 250px;
+}
+.website-info{
+    display: flex;
+    flex-direction: column ;
+    flex-basis: 600px;
+}
+
+.placeholder-image{
+    flex-basis: 600px;
+    background-color: grey;
+}
+.list-of-info{
+    display: flex;
+    justify-content: center ;
+    gap: 20px;
+}
+.random-info h1{
+    text-align: center;
+}
+
+.under-text{
+    text-align: center;
+}
+
+.iamge-banner{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    outline-color: burlywood;
+}
+
+.quote-section{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    height: 250PX;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
